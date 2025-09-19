@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Geologica:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photo_otchet{
+    padding:0 100px 0 100px ;
+    height:2268px;
+   max-width: 1920px;
+}
+.ph-title{
+font-family: "Geologica";
+font-weight: 200;
+font-size: 64px;
+width: 1720px;
+font-weight: 200;
+font-style: "ExtraLight";
+letter-spacing: -5;
+}
+
+.first_photo{
+    margin-top: 50px;
+    height: 613px;
+    width: 1720px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    list-style: none;
+}
+.second_photo{
+    margin-top: 30px;
+    height: 562px;
+    width: 1720px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    list-style: none;
+}
+.third_photo{
+  margin-top: 30px;
+    height: 613px;
+    width: 1720px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    list-style: none;
+}
+.but-show{
+margin-top: 50px;
+display: flex;
+width: 100%;
+height: 60px;
+justify-content: center;
+}
+.but-show button{
+    width: 554px;
+    height: 60px;
+    border: 1px solid rgba(rgba(0, 0, 0, 1));
+    font-size: 20px;
+    font-family: "Geologica";
+    font-weight: 300;
+    background-color: transparent;
+}
+
+
+  
+.ph-title .part-1,
+.ph-title .part-2,
+.ph-title .part-3,
+.ph-title .part-4 {
+  display: inline;
+}
+
+
+
+@media(max-width:768px)
+{
+.photo_otchet{
+height: 1200px;
+     padding:0 20px 0 20px ;
+}
+.ph-title{
+font-size: 45px;
+width: 720px;
+height: 200px;
+line-height: 100%;
+font-weight: 200;
+letter-spacing: -5%;
+}
+
+.first_photo{
+    height: 251px;
+    width: 278px;
+    margin-top: 40px;
+    gap: 20px;
+}
+.img1{
+height: 251px;
+width: 167px;
+}
+.second_photo{
+      height: 236px;
+    width: 278px;
+    margin-top: 20px;
+    gap: 20px;
+}
+.img2{
+height: 236px;
+width: 354px;
+}
+.third_photo{
+     height: 251px;
+    width: 278px;
+    margin-top: 20px;
+    gap: 20px;
+}
+.but-show{
+    margin-top: 40px;
+    height: 45px;
+}
+.but-show button{
+    height: 45px;
+    width: 354px;
+    font-size: 16px;
+}
+
+
+
+ .ph-title .part-1,
+  .ph-title .part-2,
+  .ph-title .part-3,
+  .ph-title .part-4,
+  .ph-title .date {
+    display: none; 
+  }
+  
+  .ph-title:before {
+    content: "Лекция Анны Семеновой по \A итогам выставки ARTDOM, \A салон Academy,";
+    display: block;
+  }
+  
+  .ph-title:after {
+    content: "5 марта 2025 года";
+    display: block;
+  }
+}
+@media (max-width:360px){
+    .photo_otchet{
+        height: 1757px;
+}
+  .ph-title:before,
+  .ph-title:after {
+    display: none; 
+  }
+  .ph-title{
+    font-size: 30px;
+    width: 320px;
+    height: 150px;
+  }
+
+  
+  .ph-title .part-1,
+  .ph-title .part-2,
+  .ph-title .part-3,
+  .ph-title .part-4,
+  .ph-title .date {
+    display: block;
+  }
+  .first_photo{
+    height: 477px;
+    width: 320px;
+    margin-top: 30px;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.img1{
+height: 226px;
+width: 150px;
+}
+.second_photo{
+      height: 450px;
+    width: 320px;
+    margin-top: 20px;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.img2{
+height: 213px;
+width: 320px;
+}
+.third_photo{
+    height: 477px;
+    width: 320px;
+    margin-top: 20px;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.img1{
+height: 226px;
+width: 150px;
+}
+.but-show{
+    margin-top: 20px;
+    height: 45px;
+}
+.but-show button{
+    height: 45px;
+    width: 354px;
+    font-size: 16px;
+}
+}
